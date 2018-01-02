@@ -1,0 +1,15 @@
+{% include open.html %}
+
+<div id="page-container">
+  {% include nav.html %}
+  <article id="main-container">
+    <div id="main-content">
+      <h1 class="main-title">{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </article>
+</div>
+
+{% include footer.html %}
+
+{% include close.html %}

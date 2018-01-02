@@ -1,0 +1,36 @@
+---
+title: Utility
+permalink: /docs/utility.html
+---
+
+<h2>Variables</h2>
+<p>
+{% include br-branding.html %} makes heavy use of SASS variables. These variables can be found in <code>/src/common/_vars.scss</code>. As part of the build process, a variable override file is also created at <code>/overrices.scss</code>. The overrides file is automatically included as part of the build process and any variables defined in the override file will take precedence over the default value. This allows you to easily modify small parts of the {% include br-branding.html %} framework without having to modify core code.
+</p>
+<p>
+For a complete list of all variables that you can override, consult the <code>/src/common/_vars.scss</code> file.
+</p>
+
+<h2>Mixins</h2>
+<p>
+{% include br-branding.html %} includes several pre-defined mixins. These mixins are located in <code>/src/common/mixins</code>. They are automatically loaded during the build process and can be used elsewhere in the SASS files (including in your custom CSS as long as you load the <code>init.scss</code> file first).
+</p>
+<h3>Font mixins</h3>
+<p>
+The most commonly used mixins are the font mixins, which standardize the use of fonts throughout Bedrock. There are five font mixins defined:
+</p>
+<ul>
+  <li><code>font_sans</code></li>
+  <li><code>font_sans_light</code></li>
+  <li><code>font_serif</code></li>
+  <li><code>font_mono</code></li>
+  <li><code>font_glyph</code></li>
+</ul>
+
+<h2>Utility Classes</h2>
+
+<h3>Padding</h3>
+<code>.br-padded</code>
+
+<h3>Colors</h3>
+<code>.br-color-*</code>

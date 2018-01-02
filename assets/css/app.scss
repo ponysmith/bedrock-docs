@@ -1,0 +1,13 @@
+---
+# Style manifest
+---
+
+// Include Bedrock
+@import 'bedrock/src/init';
+
+// Other app styles
+@import 'app/page';
+@import 'app/nav';
+@import 'app/footer';
+@import 'app/pygments';
+@import 'app/examples';

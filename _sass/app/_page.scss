@@ -1,0 +1,39 @@
+#page-container {
+  padding: 20px 20px 20px 60px;
+}
+
+#main-container {
+
+}
+#main-content {
+  max-width: 1100px;
+
+  .branding {
+    font-weight: bold;
+    font-style: italic;
+    color: $br_color_charcoal;
+  }
+
+  .main-title {
+    margin: 0 0 1.5rem;
+    padding-bottom: 5px;
+    border-bottom: 3px solid $br_color_primary_dark;
+  }
+
+  .docs-section {
+
+  }
+  .docs-section-links {
+
+  }
+  .docs-sample {
+
+  }
+  .docs-code {
+
+    pre {
+      margin: 0;
+      padding: 15px 10px;
+    }
+  }
+}

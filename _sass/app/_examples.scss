@@ -1,0 +1,35 @@
+/**
+ * Custom formatting for examples
+ */
+
+
+.docs-section {
+  padding-bottom: 2rem;
+}
+
+.docs-sample {
+
+  // Containers
+  .br-container-fixed {
+    background-color: $br_color_ash;
+    color: $br_color_charcoal;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .br-container-full {
+    background-color: $br_color_ash_light;
+    color: $br_color_charcoal;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  // Grid
+  .br-row.grid-example {
+    [class^="br-col"] {
+      background-color: $br_color_ash_light;
+      color: $br_color_charcoal;
+      @include font_mono;
+    }
+  }
+
+}

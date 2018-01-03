@@ -19,7 +19,7 @@ git clone git@github.com:ponysmith/bedrock-docs.git
 
 ### Jekyll
 
-The Bedrock documentation site is built using [Jekyll](https://jekyllrb.com/). To run the documentation site locally, you will need to install Jekyll and Ruby. Follow the installation guidelines on the Jekyll site.
+The Bedrock documentation site is built using [Jekyll](https://jekyllrb.com/). To run the documentation site locally, you will need to install Jekyll and Ruby. Follow the installation guidelines on the Jekyll site. For the best results, run the site with Ruby 2.3.
 
 
 ### Clone Bedrock site
